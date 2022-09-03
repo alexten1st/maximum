@@ -1,0 +1,106 @@
+.offerCard{
+    display: flex;
+    flex-direction: column;
+    width: 22.5rem;
+    min-height: 32rem;
+    /* border: 1px solid salmon; */
+    padding: 3rem 2rem;
+    box-shadow: 0px 0.5rem 1.5rem #0E2A6029;
+    margin-bottom: 2rem;
+
+}
+.offerCardTitle{
+    font-size: 1.1em;
+    margin-right: 0.5rem;
+}
+.offerCardTitleContainer{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.offerCardProductionYear{
+    color: #22BF86;
+    font-size: 0.8em;
+}
+.vin{
+    margin: 0;
+    font-size: 0.6em;
+    color:#707B8C;
+    margin-bottom: 1rem;
+}
+.propertiesList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+
+}
+.img{
+    margin-bottom: 1rem;
+}
+.property{
+    width: 11rem;
+    margin-bottom: 1rem;
+
+}
+.propertyName{
+    margin-bottom: 0.3rem;
+    color: #ACB8BF;
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+.additionalsContainer{
+    display: flex;
+}
+.plusAdditional{
+    color: #707B8C;
+
+}
+.additional{
+    margin-right: auto;
+    display: inline-block; 
+    position: relative; 
+    overflow: hidden; 
+    width: 14rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.additional::after {
+    content: "..."; 
+    position: absolute; 
+    right: -20; 
+    top: 2.3em;
+}
+.mark{
+    background-color: transparent;
+    color:#22BF86;
+}
+.price{
+    font-size: 2em;
+    margin-bottom: 00.5rem;
+}
+.buyContainer{
+    margin-top: 2rem;
+    display: flex;
+}
+.priceContainer{
+    margin-right: auto;
+}
+.buyBtn{
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    padding: 1rem 3rem;
+    background: linear-gradient(250deg, #38EF7D, #11998E);
+    border-radius: 8px;
+    opacity: 1;
+    color: #FFFFFF;
+
+}
+.overflow{
+    overflow: hidden;
+}
+.imgContainer{
+    width: 18rem;
+    height: 13rem;}

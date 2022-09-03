@@ -1,0 +1,38 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 80vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 0.1rem solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contentContainer {
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+.select{
+  background: #35373A 0% 0% no-repeat padding-box;
+  color: white;
+}
+
+.opacity{
+  opacity: 0.5;
+}

@@ -1,0 +1,10 @@
+.imgContainer{
+  width: 18rem;
+  height: 13rem;
+  margin-bottom: 1.5rem;
+}
+.img{
+  width: 18rem;
+  height: 13rem;
+  border: 0.8rem solid white;
+}

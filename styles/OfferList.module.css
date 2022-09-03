@@ -1,0 +1,17 @@
+@media (max-width: 1008px) {
+    .offers {
+      justify-content: center;
+    }
+  }
+  @media (min-width: 1009px) {
+    .offers {
+      justify-content: space-between;
+    }
+  }
+  .offers {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+  }
